@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Day & Night – Opposites Attract | Tanishq Sharma</title>
+</head>
+<body>
+  <button id="home-button" aria-label="Go to Home Page">🏠 Home</button>
+
+  <div class="center-toggle">
+    <div class="toggle-label" id="toggle-label">
+      Two sides of me<br>Who do you want to meet?
+    </div>
+    <div id="choice-buttons">
+      <button class="toggle-btn day-btn" id="choose-day" aria-label="Choose Day">☀️ Day</button>
+      <button class="toggle-btn night-btn" id="choose-night" aria-label="Choose Night">🌙 Night</button>
+    </div>
+
+    <div class="panel-container" id="day-panel-container" style="display:none;">
+      <div class="img-column">
+        <div class="img-box">
+          <img src="images/ball.jpg" alt="photo 1">
+        </div>
+        <div class="img-box">
+          <img src="images/bench.jpg" alt="photo 2">
+        </div>
+      </div>
+      <div class="panel" id="day-panel">
+        <button class="toggle-btn" id="switch-to-night" aria-label="Switch to Night" style="float:right; margin-top:-32px;">🌙</button>
+        <h1>Daytime Me</h1>
+        <div class="tagline">Just a chill guy.</div>
+        <div class="section-title">ABOUT ME</div>
+        <p>Hey, I'm Tanishq — a second-year Computer Science student at UNSW. I'm 19 years old and originally from Singapore.
+          During the day, you'll usually find me doing something productive (or at least trying to be). I love coding (except data structures)
+          and have finished COMP- 1511,1521,2521,and 2041. I also like to stay active, which i do by hitting the gym and playing basketball.
+          Talking about basketball - click the 🏀 emoji below to see the king 👑.
+          When I'm not coding or staying active- I'm probably just chilling, listening to music, or catching up with friends. Nothing too crazy, just a chill guy like I said.
+          Wanna see the nightime me? - click the moon 🌙 to find out. Press the HOME to go backkkk
+        </p>
+      </div>
+      <div class="img-column">
+        <div class="img-box">
+          <img src="images/friends.jpg" alt="photo 3">
+        </div>
+        <div class="img-box">
+          <img src="images/study.jpg" alt="photo 4">
+        </div>
+      </div>
+    </div>
+
+    <div class="panel-container" id="night-panel-container" style="display:none;">
+      <div class="img-column">
+        <div class="img-box">
+          <img src="images/blou.jpg" alt="photo 1">
+        </div>
+        <div class="img-box">
+          <img src="images/carti.jpg" alt="photo 2">
+        </div>
+      </div>
+      <div class="panel" id="night-panel">
+        <button class="toggle-btn" id="switch-to-day" aria-label="Switch to Day" style="float:right; margin-top:-32px;">☀️</button>
+        <h1>Nighttime Me</h1>
+        <div class="tagline">Still a chill guy</div>
+        <div class="section-title">ABOUT ME</div>
+        <p> Hey, I'm Tanishq — a second-year Computer Science student at UNSW. I'm 19 years old and originally from Singapore. 
+          At night time, you'll probably find me in my room with friends, blasting music (Playboi Carti, CAS, Young Thug, The Marías) or watching movies or anime, depending on the mood.(The Godfather, Lord of the Rings, JoJo's Bizarre Adventure, and One Piece)
+          Otherwise, I'm likely out in the city with my mates, usually at a bar.
+          I used to hate beer, but thanks to a bit of influence (and a few good nights), I've grown to love it — especially Hahn SuperDry 🍻 
+          BTW- have you tried clicking the basketball emoji 🏀 below? But yea, that's about it. Press the HOME to go backkkk
+        </p>
+      </div>
+      <div class="img-column">
+        <div class="img-box">
+          <img src="images/zrr.jpg" alt="photo 3">
+        </div>
+        <div class="img-box">
+          <img src="images/madsnme.jpg" alt="photo 4">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <button id="easter-egg-btn">🏀</button>
+  <div id="lebron-panel">
+    <img src="i.png" alt="LeBron James flexing in Lakers jersey"/>
+    <p>LEBRONNN LAKERS IN 5!!!</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
